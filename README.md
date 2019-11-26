@@ -1,6 +1,13 @@
 # Azure Kinect - OpenCV KinectFusion Sample
 
-## Introduction
+## ArchLinux instructions
+
+Just install the dependencies using AUR.
+
+* opencv4
+* vtk
+
+## Old Introduction
 
 The Azure Kinect - OpenCV KinectFusion sample shows how to use the Azure Kinect SDK with the KinectFusion from opencv_contrib's rgbd module (https://github.com/opencv/opencv_contrib/tree/master/modules/rgbd). This sample demonstrates how to feed calibration and undistorted depth images from Azure Kinect to the OpenCV's KinectFusion module. We render live KinectFusion results and generate fused point cloud as ply when user exits application.
 
