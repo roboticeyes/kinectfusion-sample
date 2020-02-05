@@ -1,5 +1,7 @@
 # Azure Kinect - OpenCV KinectFusion Sample
 
+This sample is taken from [this](https://github.com/microsoft/Azure-Kinect-Samples/tree/master/opencv-kinfu-samples) repository and modified so that it can be used with CMake.
+
 ## ArchLinux instructions
 
 Just install the dependencies using AUR.
@@ -7,7 +9,7 @@ Just install the dependencies using AUR.
 * opencv4
 * vtk
 
-## Old Introduction
+## Original Introductions
 
 The Azure Kinect - OpenCV KinectFusion sample shows how to use the Azure Kinect SDK with the KinectFusion from opencv_contrib's rgbd module (https://github.com/opencv/opencv_contrib/tree/master/modules/rgbd). This sample demonstrates how to feed calibration and undistorted depth images from Azure Kinect to the OpenCV's KinectFusion module. We render live KinectFusion results and generate fused point cloud as ply when user exits application.
 
